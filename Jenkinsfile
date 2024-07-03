@@ -92,7 +92,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/juleshkumar/jenkins-test.git'
+                git branch: 'terraform', url: 'https://imamityaadav@gmail.com:Batman@1github@github.com/imamityaadav/decimal-jenkins-vrt.git'
             }
         }
 
