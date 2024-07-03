@@ -93,6 +93,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'terraform', url: 'https://imamityaadav@gmail.com:Batman@1github@github.com/imamityaadav/decimal-jenkins-vrt.git'
+                    credentialsId: 'git-credentials'
             }
         }
 
