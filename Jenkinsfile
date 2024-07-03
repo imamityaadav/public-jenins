@@ -99,7 +99,7 @@ pipeline {
         stage('Modify dev.tfvars') {
             steps {
                 script {
-    def tfvarsPath = 'terraform/variables/dev.tfvars'
+    def tfvarsPath = 'julesh-terraform/variables/dev.tfvars'
 
     // Read the existing content of the tfvars file
     def tfvarsContent = readFile(file: tfvarsPath)
